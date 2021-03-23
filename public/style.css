@@ -1,0 +1,47 @@
+:root {
+  --background: #222c3c;
+  --honey: #d8b26e;
+  --cream: #e2e0d5;
+  --jean: #999ea7;
+  --nude: #b69b7d;
+  --selection-bg: #d0d1d3;
+  --selection-letter: #4d1635;
+  --body-font: "ABeeZee", sans-serif;
+  --heading-font: "Lobster", cursive;
+}
+
+body {
+  background: var(--background);
+  font-family: var(--body-font);
+  color: var(--honey);
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-letter);
+}
+
+h1 {
+  font-family: var(--heading-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.navbar {
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__links a {
+  color: var(--jean);
+  padding-left: 1rem;
+}
