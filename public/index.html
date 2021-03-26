@@ -21,9 +21,11 @@
     <div>
       <header class="header">
         <nav class="navbar">
-          <buttton class="navbar__link"><a href="#">About</a></buttton>
-          <buttton class="navbar__link"><a href="#">Projects</a></buttton>
-          <buttton class="navbar__link"><a href="#">Contact</a></buttton>
+          <buttton class="navbar__link"><a href="#about">About</a></buttton>
+          <buttton class="navbar__link"
+            ><a href="#projects">Projects</a></buttton
+          >
+          <buttton class="navbar__link"><a href="#contact">Contact</a></buttton>
         </nav>
       </header>
     </div>
@@ -35,10 +37,10 @@
         and learning
       </h1>
     </div>
-    <section>
-      <div class="about">
-        <div class="about__title">Something about me</div>
-        <div class="about__content">
+    <section id="about">
+      <div class="section">
+        <div class="section__title">Something about me 👨‍💻</div>
+        <div class="section__content">
           <p>Currently seeking full-time opportunities.</p>
           <p>
             As a web developer I enjoy creating both front-end web pages with a
@@ -59,7 +61,175 @@
         </div>
       </div>
     </section>
-    <div class="projects"></div>
-    <div class="contact"></div>
+    <section id="projects">
+      <div class="section">
+        <div class="section__title">Projects 🔨</div>
+        <div class="project">
+          <div class="project__content">
+            <a
+              href="https://github.com/0-Arngerdur-1/Contactore"
+              target="_blank"
+              rel="noopener"
+              class="project__title"
+              >Contactore</a
+            >
+            <p>
+              A web application to store contacts and write pendings for each
+              contact.
+            </p>
+            <p>
+              In this application you can add contacts, edit contacts, search
+              contacts and delete contacts. The form has validations for
+              different fields, for example, so that the phone number agrees to
+              the 10 digits required, email validation and validation of
+              required fields.
+            </p>
+            <p>
+              This is the project that cost me the most effort and time since I
+              had to install the tools, configure them, install the framework
+              and do the programming logic, but in each of these steps I went
+              through several installation, configuration and code problems. To
+              such a degree of thinking that programming was not my thing, but I
+              didn't give up, I kept going and was able to finish it even with
+              improvements that I didn't have planned at the beginning.
+            </p>
+            <p>
+              <b>Technologies:</b> HTML, CSS, Python with Flask, MariaDB,
+              PhpMyAdmin, JavaScript, Bootstrap and the Linux Shell.
+            </p>
+          </div>
+          <img
+            src="./images/contactore.png"
+            alt="Image of the contactore project, on the left is the contact form and on the right the list of contacts."
+            class="project__image"
+          />
+        </div>
+        <div class="project">
+          <div class="project__content">
+            <a
+              href="https://0-arngerdur-1.github.io/0-Arngerdur-1.github.io-/"
+              target="_blank"
+              rel="noopener"
+              class="project__title"
+              >Weather-Now</a
+            >
+
+            <p>
+              Frontend web application that provides information about the
+              current weather of a city, such as temperature, humidity and wind
+              speed. Using the Weather API of OpenWeather.
+            </p>
+
+            <p>
+              <b>Technologies:</b> HTML, CSS, JavaScript, Webpack, responsive
+              web design, ESLint, Prettier and the Weather API
+            </p>
+          </div>
+          <img
+            src="./images/weatherNow.png"
+            alt="Image of the Weather-Now project, in the center a card with weather information of Madrid Spain and below a form to put the city and the country code."
+            class="project__image"
+          />
+        </div>
+        <div class="project">
+          <div class="project__content">
+            <a
+              href="https://abastecedoratatum.netlify.app/"
+              target="_blank"
+              rel="noopener"
+              class="project__title"
+              >Website of the company Abastecedora Tatum</a
+            >
+
+            <p>Website to show about the company and its services.</p>
+
+            <p>
+              <b>Technologies:</b> HTML, CSS, Tailwind CSS, Netlify and
+              responsive web design.
+            </p>
+          </div>
+          <img
+            src="./images/abastecedoraTatum.png"
+            alt="Image of the Abastecedora Tatum website."
+            class="project__image"
+          />
+        </div>
+        <div class="project">
+          <div class="project__content">
+            <a
+              href="https://0-arngerdur-1.github.io/Calculator/"
+              target="_blank"
+              rel="noopener"
+              class="project__title"
+              >Calculator</a
+            >
+
+            <p>
+              A calculator using DOM manipulation, with function to eliminate
+              numbers.
+            </p>
+
+            <p><b>Technologies:</b> HTML, CSS and JavaScript</p>
+          </div>
+          <img
+            src="./images/calculator.png"
+            alt="Image of the Calculator project."
+            class="project__image"
+          />
+        </div>
+        <div class="project">
+          <div class="project__content">
+            <a
+              href="https://abastecedoratatum.netlify.app/"
+              target="_blank"
+              rel="noopener"
+              class="project__title"
+              >Personal portfolio</a
+            >
+
+            <p>A website to talk about me and show my projects.</p>
+            <p><b>Technologies:</b> HTML, CSS and responsive design.</p>
+          </div>
+          <img
+            src="./images/personalPortfolio.png"
+            alt="Image of the personal portfolio website."
+            class="project__image"
+          />
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="contact">
+        <div class="footer">
+          <span>Designed & developed by <br /></span>
+          <span>Edwin Alvarado 2021</span>
+        </div>
+        <div class="footer__links">
+          <a
+            href="https://github.com/0-Arngerdur-1"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="./images/GitHubMark.png"
+              alt="GitHub icon."
+              class="footer__icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/edwin-alva/"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="./images/linkedinIcon.svg"
+              alt="Linkedin icon."
+              class="footer__icon"
+          /></a>
+          <img
+            src="./images/mail.png"
+            alt="Email direction."
+            class="footer__email"
+          />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
